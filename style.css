@@ -1,1 +1,16 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.page-wrapper {
+    background-image: url("images/soraandroxasbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-stretch: expanded;
+}
