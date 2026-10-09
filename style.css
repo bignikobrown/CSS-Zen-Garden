@@ -3,16 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
-.page-wrapper {
-    background-image: url("images/soraandroxasbg.png");
-    background-position: center;
+body {
+    background-image: url("images/soraandroxasbg.png"), url("images/TTGS.png");
     background-repeat: no-repeat;
+    background-position: top, bottom;
+    padding-bottom: 1000px;
 }
 
 h1 {
     font-family: "Inter", sans-serif;
     font-weight: 200;
-    
+    text-align: center;
 }
 
 h2 {
@@ -28,20 +29,34 @@ p[role=contentinfo] {
 }
 
 p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
     font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("images/textbox.png");
+    background-repeat: no-repeat;
+    width: 83.9vw;
+    height: 100px;
+    text-align: center;
 }
+
 
 h3 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     color: #96E7FF;
     font-family: "Iceland", sans-serif;
     font-weight: 550;
     font-style: normal;
     font-size: 2.7em;
+    width: 83.9vw;
     -webkit-text-stroke: 1px black;
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
     background-position: center;
 }
+
