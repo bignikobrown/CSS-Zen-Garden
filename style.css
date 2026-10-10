@@ -7,7 +7,7 @@ body {
     background-image: url("images/soraandroxasbg.png"), url("images/TTGS.png");
     background-repeat: no-repeat;
     background-position: top, bottom;
-    padding-bottom: 1000px;
+    padding-bottom: 2300px;
 }
 
 h1 {
@@ -20,27 +20,24 @@ h2 {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
 }
 
 p[role=contentinfo] {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
 }
 
 p {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: #ffffff;
     font-family: "Iceland", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url("images/textbox.png");
-    background-repeat: no-repeat;
     width: 83.9vw;
-    height: 100px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -58,5 +55,29 @@ h3 {
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.sidebar {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-decoration: none;
+
+}
+
+footer {
+    background-image: url("images/titlebox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 83.9vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[role=navigation] {
+    text-align: center;
+}
