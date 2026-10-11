@@ -4,16 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
 body {
-    background-image: url("images/soraandroxasbg.png"), url("images/TTGS.png");
+    background-image: url("images/soraandroxasbg.png"), url("images/bg.png");
     background-repeat: no-repeat;
-    background-position: top, bottom;
-    padding-bottom: 2300px;
+    background-position: top center, center;
+    height: 23548px;
 }
 
 h1 {
     font-family: "Inter", sans-serif;
-    font-weight: 200;
+    font-weight: 150;
     text-align: center;
+    padding: 180px 0 0 0;
+    font-size: 3.5em;
+    letter-spacing: 55px;
+    background-image: url("images/titlefx.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 120px;
 }
 
 h2 {
@@ -21,6 +28,7 @@ h2 {
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    opacity: 60%;
 }
 
 p[role=contentinfo] {
@@ -31,13 +39,19 @@ p[role=contentinfo] {
 }
 
 p {
+    color: white;
     font-family: "Iceland", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 83.9vw;
+    width: 50vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: black 1px 1px 3px;
+    border: 15px solid #03008b;
+    background-color: #03008b;
+    border-radius: 10px;
+    font-size: 2em;
 }
 
 
@@ -60,24 +74,105 @@ h3 {
     margin-right: auto;
 }
 
-.sidebar {
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-    text-decoration: none;
-
-}
-
 footer {
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 2.7em;
     text-align: center;
     width: 83.9vw;
     margin-left: auto;
     margin-right: auto;
 }
 
+li {
+    list-style-type: none;
+}
+
 [role=navigation] {
     text-align: center;
+    border: 15px solid #03008b;
+    background-color: #03008b;
+    border-radius: 10px;
+    font-size: 2em;
+    width: auto;
+}
+
+li.view-css {
+    background-image: url("images/titlebox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+li.css-resources {
+    background-image: url("images/titlebox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+li.zen-faq {
+    background-image: url("images/titlebox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+li.zen-submit {
+    background-image: url("images/titlebox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+li.zen-translations {
+    background-image: url("images/titlebox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+a:visited {
+  color: red;
+}
+
+::selection {
+  color: rgb(255, 10, 10);
+  background: rgb(255, 255, 12);
+}
+
+:root {
+  background-color: white;
+}
+
+a:link {
+  color: #96E7FF;
+}
+
+div.preamble {
+    padding-top: 3800px;
+    padding-bottom: 2900px;
+}
+
+div#zen-explanation {
+    padding-bottom: 2900px;
+}
+
+div.benefits {
+    padding-top: 2900px;
+}
+
+div.requirements {
+    padding-top: 2900px;
+}
+
+div.wrapper .design-selection {
+    padding-top: 2900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+* {
+    opacity: 100%;
 }
