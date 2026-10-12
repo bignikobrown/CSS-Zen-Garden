@@ -38,6 +38,10 @@ p[role=contentinfo] {
     text-align: center;
 }
 
+#zen-summary {
+    opacity: 100%;
+}
+
 p {
     color: white;
     font-family: "Iceland", sans-serif;
@@ -75,9 +79,9 @@ h3 {
 }
 
 footer {
+    padding-top: 1000px;
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
-    background-position: center;
     font-size: 2.7em;
     text-align: center;
     width: 83.9vw;
@@ -87,15 +91,6 @@ footer {
 
 li {
     list-style-type: none;
-}
-
-[role=navigation] {
-    text-align: center;
-    border: 15px solid #03008b;
-    background-color: #03008b;
-    border-radius: 10px;
-    font-size: 2em;
-    width: auto;
 }
 
 li.view-css {
@@ -167,12 +162,10 @@ div.requirements {
     padding-top: 2900px;
 }
 
-div.wrapper .design-selection {
-    padding-top: 2900px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 * {
     opacity: 100%;
+}
+
+a:active {
+    background-color: rgb(85, 0, 255);
 }
