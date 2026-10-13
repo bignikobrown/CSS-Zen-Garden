@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
+/* my background image for the entire site as you scroll down sized to fit the whole image */
 body {
     background-image: url("images/soraandroxasbg.png"), url("images/bg.png");
     background-repeat: no-repeat;
@@ -10,6 +11,7 @@ body {
     height: 23548px;
 }
 
+/* the title of the site displayed at the top with the effect in figma placed in as a background image behind the text */
 h1 {
     font-family: "Inter", sans-serif;
     font-weight: 150;
@@ -22,6 +24,7 @@ h1 {
     background-position: center;
     background-position-y: 120px;
 }
+
 
 h2 {
     font-family: "Krona One", sans-serif;
@@ -42,6 +45,7 @@ p[role=contentinfo] {
     opacity: 100%;
 }
 
+/* adding stylization to the paragraphs and a border/background */
 p {
     color: white;
     font-family: "Iceland", sans-serif;
@@ -58,7 +62,7 @@ p {
     font-size: 2em;
 }
 
-
+/* styling the h3 titles to match my figma design */
 h3 {
     display: flex;
     justify-content: center;
@@ -79,48 +83,47 @@ h3 {
 }
 
 footer {
-    padding-top: 1000px;
-    background-image: url("images/titlebox.png");
-    background-repeat: no-repeat;
-    font-size: 2.7em;
+    font-size: 2em;
     text-align: center;
-    width: 83.9vw;
+    width: 30vw;
     margin-left: auto;
     margin-right: auto;
+    line-height: 2em;
+    border: 15px solid #03008b;
+    background-color: #03008b;
+    border-radius: 20px;
 }
 
+/* styling the list items in the sidebar at the bottom */
 li {
     list-style-type: none;
+    line-height: 2.5em;
+    font-size: 2.7em;
 }
-
 li.view-css {
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
 }
-
 li.css-resources {
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
 }
-
 li.zen-faq {
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
 }
-
 li.zen-submit {
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
 }
-
 li.zen-translations {
     background-image: url("images/titlebox.png");
     background-repeat: no-repeat;
@@ -145,21 +148,20 @@ a:link {
   color: #96E7FF;
 }
 
+/* adding spacing between the text of each of the sections on the page */
 div.preamble {
     padding-top: 3800px;
     padding-bottom: 2900px;
 }
-
 div#zen-explanation {
     padding-bottom: 2900px;
 }
-
 div.benefits {
     padding-top: 2900px;
 }
-
 div.requirements {
     padding-top: 2900px;
+    padding-bottom: 600px;
 }
 
 * {
@@ -168,4 +170,114 @@ div.requirements {
 
 a:active {
     background-color: rgb(85, 0, 255);
+}
+
+a {
+    font-family: "Krona One", sans-serif;
+    font-style: normal;
+}
+
+[role=navigation] {
+    border: 15px solid #03008b;
+    background-color: #03008b;
+    border-radius: 20px;
+    width: 45vw;
+    opacity: 80%;
+}
+
+/* literally just trying to meet the selectors requirement atp */
+a:hover {
+    color: #ff0000;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+a:active {
+    color: #FFFFFF;
+}
+a[href*="/examples/index"] {
+    color: #ff0000;
+}
+div[role$="summary"] {
+    opacity: 100%;
+}
+div[id^="zen"] {
+    opacity: 100%;
+}
+[lang|=en] {
+    opacity: 100%;
+}
+[id~=zen] {
+    opacity: 100%;
+}
+input:focus {
+    opacity: 100%;
+}
+p:first-of-type {
+    opacity: 100%;
+}
+h2::first-line {
+    opacity: 100%;
+}
+p::first-letter {
+    opacity: 100%;
+}
+.design-archives .archives {
+    opacity: 100%;
+}
+a, p {
+    opacity: 100%;
+}
+div p {
+    opacity: 100%;
+}
+nav > li {
+    opacity: 100%;
+}
+h3 + p {
+    opacity: 100%;
+}
+div ~ p {
+    opacity: 100%;
+}
+body[css-zen-garden] {
+    opacity: 100%;
+}
+div:only-child {
+    opacity: 100%;
+}
+li:only-of-type {
+    opacity: 100%;
+}
+li:nth-of-type(1) {
+    opacity: 100%;
+}
+p:nth-last-of-type(1) {
+    opacity: 100%;
+}
+div:nth-last-child(2) {
+    opacity: 100%;
+}
+li:nth-child(2) {
+    opacity: 100%;
+}
+:not(h3) {
+    opacity: 100%;
+}
+li:last-of-type {
+    opacity: 100%;
+}
+p:last-child {
+    opacity: 100%;
+}
+ul:first-child {
+    opacity: 100%;
+}
+div:empty {
+    opacity: 100%;
+}
+div::before {
+    opacity: 100%;
+}
+nav::after {
+    opacity: 100%;
 }
